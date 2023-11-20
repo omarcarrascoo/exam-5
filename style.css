@@ -21,7 +21,7 @@ label{
 .card{
     box-shadow: 1px 1px 10px #1111114a;
     padding: 10px 3px;
-    min-width: 600px;
+    width: fit-content;
 }
 .cardContainer{
     width: 90%;
@@ -70,7 +70,7 @@ label{
     padding: 8px 10px;
     border-radius: 2px;
     border: 1px solid #5b5b5b;
-    min-width: 300px;
+    min-width: 200px;
 }
 .inputForm{
     display: flex;
@@ -96,6 +96,7 @@ label{
 .rowForm{
     display: flex;
     align-items: center;
+    max-width: 100%;
 }
 .inputFormSmall input{
     width: 20px;
@@ -112,4 +113,5 @@ label{
     width: 100%;
     justify-content: space-between;
     width: 100%;
+    font-weight: 500;
 }
