@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+span{
+    color: #22acac;
+}
+label{
+    margin-bottom: 4px;
+}
+.card{
+    box-shadow: 1px 1px 10px #1111114a;
+    padding: 10px 3px;
+    min-width: 600px;
+}
+.cardContainer{
+    width: 90%;
+    margin: 0 auto;
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.headerIcon{
+    display: flex;
+    gap: 1px;
+}
+.headerIcon div{
+    width: 5px;
+    height: 5px;
+    background: #121212;
+    border-radius: 50%;
+}
+.formSectionContainer{
+    width: 100%;
+}
+.yellowTitle{
+    background: #22acac;
+    color: #f2f2f2;
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+.directions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rowForm{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+}
+.rowForm input{
+    background: none;
+    padding: 8px 10px;
+    border-radius: 2px;
+    border: 1px solid #5b5b5b;
+    min-width: 300px;
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.inputFormFlex{
+    display: flex;
+    justify-content: baseline;
+}
+.inputFormFlex input{
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+.longinput{
+    width: 630px;
+}
+.inputForm select{
+    width: 168px;
+    padding: 8px 10px;
+}
+.rowForm{
+    display: flex;
+    align-items: center;
+}
+.inputFormSmall input{
+    width: 20px;
+}
+.rowForm button{
+    padding: 10px 15px;
+    background: #22acac;
+    border: none;
+    color: #f2f2f2;
+
+}
+.rowFormSB{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    width: 100%;
+}
